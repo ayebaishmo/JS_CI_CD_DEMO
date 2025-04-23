@@ -9,7 +9,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-nodes@v4
         with:
-          node-version: '22.14'
+          node-version: '22.4'
       - name: Instakk dependecies
         run: npm install
       - name: Run tests
